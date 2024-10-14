@@ -1,0 +1,128 @@
+.testimonial {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-left: 2rem;
+  background-color: #2545b8;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.testimonialNoPic {
+  box-shadow: 0 0 0 1px #0002;
+  margin: 3rem 0;
+  padding: 2rem;
+}
+
+.testimonialImage {
+  object-fit: cover;
+  margin: -1rem 0;
+  aspect-ratio: 3 / 4;
+  border-radius: 0.75rem;
+}
+
+.testimonialContent {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: #fff;
+  row-gap: 0.75rem;
+}
+
+.testimonialContentNoPic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  margin: 0 8.2rem;
+}
+
+.companyLogo {
+  max-width: 7.5rem;
+  margin-bottom: 2rem;
+  align-self: center;
+}
+
+.testimonialIcon {
+  font-size: 1.5rem;
+  opacity: 25%;
+}
+
+.testimonialName {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.testimonialPosition {
+  font-size: 0.75rem;
+}
+
+.testimonialText {
+  margin-bottom: 1rem;
+}
+
+.testimonialSlash {
+  font-weight: 1000;
+  font-size: 1rem;
+  color: #2e59f3;
+}
+
+.namePosition {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  align-self: center;
+}
+
+@media screen and (max-width: 668px) {
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #2545b8;
+    padding: 0;
+  }
+
+  .testimonialContent {
+    display: flex;
+    padding: 2rem 1rem;
+    color: #fff;
+    row-gap: 0.75rem;
+  }
+
+  .testimonialName {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+
+  .testimonialPosition {
+    font-size: 0.75rem;
+  }
+
+  .testimonialImage {
+    aspect-ratio: 4 / 2;
+    width: 95%;
+    margin-top: -5rem;
+  }
+
+  .testimonialNoPic {
+    padding: 74px 16px;
+  }
+
+  .testimonialContentNoPic {
+    text-align: left;
+    margin: 0;
+  }
+
+  .companyLogo {
+    padding-bottom: 2rem;
+  }
+
+  .testimonialSlash {
+    display: none;
+  }
+
+  .namePosition {
+    gap: 0;
+    flex-direction: column;
+    align-self: baseline;
+  }
+}

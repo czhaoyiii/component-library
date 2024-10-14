@@ -1,0 +1,37 @@
+.card {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 0 4px #00000022;
+  position: relative;
+  transition: box-shadow 0.2s;
+  border-radius: 0.5rem;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px #00000022;
+}
+
+.cardIcon {
+  display: flex;
+  aspect-ratio: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #ffffff;
+  background: #3f75fe;
+  border-radius: 6px;
+  width: 3rem;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  translate: -50% -50%;
+}
+
+.cardTitle {
+  font-weight: 600;
+}
+
+.cardText {
+  margin-top: 1rem;
+}

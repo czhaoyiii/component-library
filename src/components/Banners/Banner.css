@@ -1,0 +1,20 @@
+.banner {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.bannerContent {
+  margin-left: 1rem;
+}
+
+.bannerTitle {
+  margin: 0;
+  font-weight: 600;
+}
+
+.bannerText {
+  margin: 0;
+  margin-top: 0.6rem;
+}

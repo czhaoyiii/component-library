@@ -1,0 +1,52 @@
+.appComponents {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 820px;
+}
+
+.appTitle {
+  margin-top: 4.5rem;
+  margin-bottom: 4rem;
+  font-size: clamp(2.2rem, 4.5vw, 3rem);
+  text-align: center;
+}
+
+.sectionComponent {
+  padding: 2.5rem 3rem;
+  border-radius: 1rem;
+  border: 1px solid #0002;
+  box-shadow: 6px 6px #0002;
+  background-color: #ffffff;
+  margin-bottom: 2.5rem;
+}
+
+.ttBtn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7.5rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 1.625rem;
+  text-decoration: underline;
+  margin-top: 1.35rem;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  color: #293264;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 -1px 6px #0002;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 30rem) {
+  .sectionComponent {
+    padding: 2rem 2rem;
+  }
+}
